@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 Esta s una prueba jotos xdxddxdxdxdxdxd
+=======
+Esta s una prueba
+>>>>>>> 504492721a419f29dd246d5ae1cf2e77863ae6ac
