@@ -1,0 +1,32 @@
+.social-icons {
+    
+    display: flex; /* Para alinear los íconos horizontalmente */
+  justify-content: center; /* Centrar los íconos en el contenedor */
+  align-items: center; /* Alinear verticalmente */
+  gap: 20px; 
+  width: 30%;
+  height: 30%;
+   
+}
+.icon {
+    
+    display: flex; /* Para alinear los íconos horizontalmente */
+  justify-content: center; /* Centrar los íconos en el contenedor */
+  align-items: center; /* Alinear verticalmente */
+  gap: 20px; 
+  width: 60%;
+  height: 60%;
+   
+}
+@media (max-width: 768px) {
+    .social-icons {
+      flex-direction: column; /* Cambia a disposición vertical en pantallas pequeñas */
+      gap: 15px; /* Reduce el espacio entre los íconos */
+    }
+  
+    .icon img {
+      width: 40px; /* Reduce el tamaño de los íconos */
+      height: 40px;
+    }
+  }
+  
